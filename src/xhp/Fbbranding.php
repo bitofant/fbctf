@@ -8,11 +8,12 @@ class :fbbranding extends :x:element {
 
   protected function render(): XHPRoot {
     return
-      <span class="branding-el">
-        <svg class="icon icon--social-facebook">
-          <use href="#icon--social-facebook" />
+      <a class="branding-el" href="https://www.linkedin.com/in/jtesse">
+        <span>Workshop by:&nbsp;</span>
+        <svg class="icon icon--social-linkedin">
+          <use href="#icon--social-linkedin" />
         </svg>
-        <span class="has-icon">{' '}{$this->:brandingText}</span>
-      </span>;
+        <span class="has-icon">Joran</span>
+      </a>;
   }
 }
